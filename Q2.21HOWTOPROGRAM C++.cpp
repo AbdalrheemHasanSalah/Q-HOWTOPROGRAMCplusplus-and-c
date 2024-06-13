@@ -161,37 +161,12 @@ int main()
 		printf("\n");
 		//  cout << endl;
 	}
-	//for (row = 1; row <= n2; row++)
-	//{
+	
+	
 
-	//	for (j2 = 1; j2 <= row - 1; j2++)
-	//		//  printf("  ");
-
-	//		cout << ' ';
-
-
-
-	//	if (row != n) cout << '*';
-	//	for (i2 = 1; i2 <= n2 * 2 - 1; i2++)
-	//		// printf("*");
-	//	{
-	//		cout << ' ';
-	//		// cout << '*';
-	//	}
-
-	//	//  printf("  ");
-
-
-	//	//  printf("  ");
-
-
-	//	cout << '*';
-
-	//	printf("\n");
-	//	//  cout << endl;
-	//}
-	//
-
+	
+	//Q2.22
+	printf("*\n**\n***\n****\n");
 
 
 }
