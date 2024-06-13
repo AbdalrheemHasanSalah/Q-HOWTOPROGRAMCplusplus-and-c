@@ -1,5 +1,8 @@
 // Q2.19 HOWTOPROGRAM C++.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//(Arithmetic, Largest Value and Smallest Value) Write a program that inputs three different
+//integers from the keyboard, then prints the sum, the average, the product, the smallest and the largest of these numbers.
+
+	
 #include<iostream> 
 using namespace std;
 #include <stdio.h>
