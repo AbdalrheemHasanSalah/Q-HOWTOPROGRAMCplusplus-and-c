@@ -1,5 +1,9 @@
-// Q2.16 HOWTOPROGRAM C++.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Q2.16 HOWTOPROGRAM C++.cpp 
+
+//2.16 (Arithmetic) Write a program that asks the user to enter two numbers, obtains them from
+//the user and prints their sum, product, difference, quotient and remainder.
+
+
 #include<iostream> 
 using namespace std;
 #include <stdio.h>
