@@ -1,5 +1,8 @@
 // Q2.17 HOWTOPROGRAM C++.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+
+//2.17 (Final Velocity) Write a program than asks the user to enter the initial velocity and acceleration of an object, and the time that has elapsed, places them in the variables u, a, and t, and prints
+//the final velocity, v, and distance traversed, s, using the following equations.
+
 #include<iostream> 
 using namespace std;
 #include <stdio.h>
