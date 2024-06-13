@@ -1,5 +1,5 @@
 // Q2.21 HOWTOPROGRAM C++.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//Q2.21 (Shapes with Asterisks)
 #include<iostream> 
 using namespace std;
 #include <stdio.h>
