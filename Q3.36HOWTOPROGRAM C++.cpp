@@ -16,7 +16,8 @@ int main()
 	int temp = Armstrong_number;
 	int count = 0;
 	int sum = 0;
-	
+	int digit;
+
 	while (temp != 0)
 	{
 		temp=temp / 10;
@@ -28,9 +29,12 @@ int main()
 	while (temp != 0)
 	{
 		*(arr + i) = temp % 10;
-		sum+=pow(*(arr + i), count);
-		temp = temp / 10;
+		 digit = pow(*(arr + i), count);
 
+		sum+=pow(*(arr + i), count);
+		cout <<"pow of digit " << i <<" is :" << digit << endl;
+		temp = temp / 10;
+		i++;
 
 	}
 	if (sum == Armstrong_number) {
