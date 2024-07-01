@@ -5,6 +5,7 @@
 //counter reaches a multiple of 50]
 
 #include <iostream>
+#include<cstdio>
 
 int main()
 {
