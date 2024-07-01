@@ -11,10 +11,25 @@ int main()
 	int a, b, c;
 	std::cout << "the first side is :";
 	std::cin >> a;
+	if (a == 0) {
+		std::cout << "print nonzero side \n";
+		std::cout << "the first side is :";
+		std::cin >> a;
+	}
 	std::cout << "\nthe seconed side is :";
 	std::cin >> b;
+	if (b == 0) {
+		std::cout << "print nonzero side \n";
+		std::cout << "the first side is :";
+		std::cin >> b;
+	}
 	std::cout << "\nthe third side is :";
 	std::cin >> c;
+	if (c == 0) {
+		std::cout << "print nonzero side \n";
+		std::cout << "the first side is :";
+		std::cin >> c;
+	}
 
 	if (a + b < c)printf("they could not be side triangle");
 	else if (a +c < b)printf("they could not be side triangle");
